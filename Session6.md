@@ -27,4 +27,3 @@ It's time to run a script.
 `Invoke-RestMethod -Method Post -URI $url -Body $JSONPayload -ContentType "application/json" -WebSession $SessionVar`
 
 Pipe your pseudo JSON to ConvertTo-JSON, and don't forget the -Depth parm if your JSON is more than 2 deep!
-
